@@ -24,10 +24,10 @@
                 }
             }
         },
-       
-    computed(){
+  computed(){
+    
 
-    },
+  },
         methods: {
             login() {
                 if(this.input.username != "" && this.input.password != "") {
