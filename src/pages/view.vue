@@ -11,8 +11,10 @@
         </div>
         <button type="button" v-on:click="login()">Login</button>
     </div>
+  
 </template>
 <script>
+import axios from 'axios';
     export default {
         name: 'Login',
         data() {
@@ -24,8 +26,13 @@
                 }
             }
         },
+       
+    computed(){
+    axios 
+    .post ('')
+ 
+    },
         methods: {
-
             login() {
                 if(this.input.username != "" && this.input.password != "") {
                     // This should actually be an api call not a check against this.$parent.mockAccount
@@ -38,9 +45,11 @@
                 } else {
                     console.log("A username and password must be present");
                 }
+    
             }
         }
     }
+ 
 </script>
 
 <style>
