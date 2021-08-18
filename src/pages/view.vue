@@ -21,13 +21,12 @@
                 input: {
                     username: "",
                     password: ""
-        
                 }
             }
         },
        
     computed(){
-    
+
     },
         methods: {
             login() {
