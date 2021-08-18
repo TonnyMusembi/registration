@@ -14,7 +14,6 @@
   
 </template>
 <script>
-import axios from 'axios';
     export default {
         name: 'Login',
         data() {
@@ -28,9 +27,7 @@ import axios from 'axios';
         },
        
     computed(){
-    axios 
-    .post ('')
- 
+    
     },
         methods: {
             login() {
