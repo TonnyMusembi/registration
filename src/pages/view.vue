@@ -12,7 +12,6 @@
         <button type="button" v-on:click="login()">Login</button>
     </div>
 </template>
-
 <script>
     export default {
         name: 'Login',
@@ -21,6 +20,7 @@
                 input: {
                     username: "",
                     password: ""
+        
                 }
             }
         },
